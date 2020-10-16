@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\danzu_000\Desktop\Proyecto Final E3\onda vhdl\MemFifo\FIFO.ncd
+OUTFILE=C:\Users\danzu_000\Desktop\Proyecto Final E3\onda vhdl\MemFifo\FIFO.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\danzu_000\Desktop\Proyecto Final E3\onda vhdl\MemFifo
+LICENSE=WebPack
+USER_INFO=211496887_0_0_817

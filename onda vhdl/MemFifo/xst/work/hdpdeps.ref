@@ -1,0 +1,10 @@
+V3 5
+FL "C:/Users/danzu_000/Desktop/Proyecto Final E3/onda vhdl/MemFifo/FIFO.vhd" 2018/04/18.13:03:42 P.20131013
+EN work/FIFO 1524078225 \
+      FL "C:/Users/danzu_000/Desktop/Proyecto Final E3/onda vhdl/MemFifo/FIFO.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/FIFO/Behavioral 1524078226 \
+      FL "C:/Users/danzu_000/Desktop/Proyecto Final E3/onda vhdl/MemFifo/FIFO.vhd" \
+      EN work/FIFO 1524078225
+FL "C:/Users/danzu_000/Desktop/prueba unir/proyecto/MemFifo/FIFO.vhd" 2018/04/18.12:45:31 P.20131013
+FL "C:/Users/REYES/Documents/Electronica 3/Laboratorio E3/proyecto/MemFifo/FIFO.vhd" 2016/10/17.14:59:51 P.20131013

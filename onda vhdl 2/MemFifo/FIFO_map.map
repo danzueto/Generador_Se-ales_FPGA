@@ -1,0 +1,122 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'FIFO'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off
+-c 100 -o FIFO_map.ncd FIFO.ngd FIFO.pcf 
+Target Device  : xc3s50a
+Target Package : tq144
+Target Speed   : -5
+Mapper Version : spartan3a -- $Revision: 1.55 $
+Mapped Date    : Tue Apr 24 19:26:56 2018
+
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:266 - The function generator Mrom__varindex001411 failed to merge
+   with F5 multiplexer Mrom__varindex00141_f5.  There is a conflict for the
+   GYMUX.  The design will exhibit suboptimal timing.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Mrom__varindex0020>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Mrom__varindex0021>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Mrom__varindex0019>:<RAMB16BWE_RAMB16BWE>.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   25
+Logic Utilization:
+  Number of Slice Flip Flops:           208 out of   1,408   14%
+  Number of 4 input LUTs:             1,016 out of   1,408   72%
+Logic Distribution:
+  Number of occupied Slices:            579 out of     704   82%
+    Number of Slices containing only related logic:     579 out of     579 100%
+    Number of Slices containing unrelated logic:          0 out of     579   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,040 out of   1,408   73%
+    Number used as logic:             1,016
+    Number used as a route-thru:         24
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 19 out of     108   17%
+    IOB Flip Flops:                       1
+  Number of BUFGMUXs:                     1 out of      24    4%
+  Number of RAMB16BWEs:                   3 out of       3  100%
+
+Average Fanout of Non-Clock Nets:                3.82
+
+Peak Memory Usage:  289 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   3 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "FIFO_map.mrp" for details.
